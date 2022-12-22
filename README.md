@@ -1,6 +1,6 @@
 # owid-repack-py
 
-![version](https://img.shields.io/badge/python-3.7—3.11-blue.svg?&logo=python&logoColor=yellow)
+![version](https://img.shields.io/badge/version-0.1.0-blue) ![version](https://img.shields.io/badge/python-3.7—3.11-blue.svg?&logo=python&logoColor=yellow)
 
 _Pack Pandas DataFrames into smaller, more memory efficient types._
 
