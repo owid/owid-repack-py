@@ -24,7 +24,7 @@ The `owid.repack` module exposes two methods, `repack_series()` and `repack_fram
 
 `repack_series()` will detect the smallest type that can accurately fit the existing data in the series.
 
-````ipython
+```ipython
 In [1]: from owid import repack
 
 In [2]: pd.Series([1, 2, 3])
