@@ -62,5 +62,5 @@ The `repack_frame()` method simply does this across every column in your DataFra
 
 ## Releases
 
-- `dev`:
+- `0.1.0`:
   - Migrate first version from `owid-catalog-py` repo
