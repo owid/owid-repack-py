@@ -1,6 +1,6 @@
 # owid-repack-py
 
-![version](https://img.shields.io/badge/version-0.1.0-blue) ![version](https://img.shields.io/badge/python-3.8—3.11-blue.svg?&logo=python&logoColor=yellow)
+![version](https://img.shields.io/badge/version-0.1.1-blue) ![version](https://img.shields.io/badge/python-3.8—3.11-blue.svg?&logo=python&logoColor=yellow)
 
 _Pack Pandas DataFrames into smaller, more memory efficient types._
 
@@ -62,5 +62,7 @@ The `repack_frame()` method simply does this across every column in your DataFra
 
 ## Releases
 
+- `0.1.1`:
+    - Fix Python support in package metadata to support 3.8.1 onwards
 - `0.1.0`:
   - Migrate first version from `owid-catalog-py` repo
