@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "owid-repack-py"
+name = "owid-repack"
 version = "0.1.0"
 description = "Pack Pandas data frames into smaller, more memory-efficient data types."
 authors = ["Our World In Data <tech@ourworldindata.org>"]
