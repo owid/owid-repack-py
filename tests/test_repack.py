@@ -206,3 +206,15 @@ def test_repack_frame_keep_dtypes():
 
     assert df2.myint.dtype.name == "float64"
     assert df2.myfloat.dtype.name == "float32"
+
+
+def test_repack_int64_all_nans():
+    s = pd.Series([np.nan, np.nan, np.nan], dtype="Int64")
+    v = repack.repack_series(s)
+    assert v.dtype.name == "Int8"
+
+
+def test_repack_float64_all_nans():
+    s = pd.Series([np.nan, np.nan, np.nan], dtype="float64")
+    v = repack.repack_series(s)
+    assert v.dtype.name == "Int8"
