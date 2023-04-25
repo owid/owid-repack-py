@@ -64,6 +64,8 @@ The `repack_frame()` method simply does this across every column in your DataFra
 
 ## Releases
 
+- `0.1.2`:
+    - Shrink columns with all NaNs to Int8
 - `0.1.1`:
     - Fix Python support in package metadata to support 3.8.1 onwards
 - `0.1.0`:
