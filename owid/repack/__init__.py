@@ -91,7 +91,10 @@ def shrink_integer(s: pd.Series) -> pd.Series:
     """
     assert s.dtype.name in ("Int64", "int64", "UInt64", "uint64")
 
-    if s.isnull().any():
+    if s.isnull().all():
+        # shrink all NaNs to Int8
+        return s.astype("Int8")
+    elif s.isnull().any():
         if s.min() < 0:
             series = ["Int32", "Int16", "Int8"]
         else:
