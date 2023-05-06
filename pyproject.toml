@@ -11,15 +11,15 @@ homepage = "https://github.com/owid/owid-catalog-py"
 
 [tool.poetry.dependencies]
 python = ">=3.8.1"
-numpy = "^1.24.0"
-pandas = "^1.5.2"
+numpy = ">=1.24.0"
+pandas = ">=1.5.2"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
-pyright = "^1.1.285"
-black = "^22.12.0"
-flake8 = "^6.0.0"
-isort = "^5.11.4"
+pytest = ">=7.2.0"
+pyright = ">=1.1.285"
+black = ">=22.12.0"
+flake8 = ">=6.0.0"
+isort = ">=5.11.4"
 
 [tool.pyright]
 
